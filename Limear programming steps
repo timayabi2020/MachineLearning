@@ -1,0 +1,21 @@
+We want to find the maximum solution to:
+Z=4x+3yZ=4x+3y
+This is known as our objective function. x and y in this equation are our decision variables.
+In this example, the objective function is subject to the following constraints:
+x≥0
+y≥2 ----- blue line
+2y≤25–x ----green line
+4y≥2x–8 -----red line
+y≤2x−5 ------ light blue line
+
+Our solution lies somewhere in the grey feasible region in the graph above.
+It has been proven that the minima and maxima of linear programming problems lie at the vertices of the feasible region.
+ In this example, there are only 4 corners to our feasible region,
+  so we can find the solutions for each corner to find our maximum.
+
+  y≥2 and 4y≥2x–8
+  2=2x–8/4
+  x=8
+  y=2
+  Z=(4×8+3×2)=38
+
